@@ -24,7 +24,7 @@ requirements:
     - python
     - pip
     - setuptools >=45
-    - setuptools_scm >=6.2
+    - setuptools_scm >=6.2,<8.0
     - cython
   run:
     - python

@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: fce340c4e290824b9999118a7d1d9dfe58a334c71e9ae871266c51a235b46547
 
 build:
@@ -14,7 +14,7 @@ build:
   entry_points:
     - epicsmacrolib = epicsmacrolib.bin.main:main
   script: {{ PYTHON }} -m pip install . -vv
-  number: 5
+  number: 6
 
 requirements:
   build:
